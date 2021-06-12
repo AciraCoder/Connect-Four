@@ -1,0 +1,80 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #00aa69;
+  overflow: hidden;
+}
+
+.cont {
+  margin: 0;
+  padding: 0;
+}
+
+button, .grid{
+  cursor: pointer;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: #18171791;
+  position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.container button {
+  height: 50px;
+  width: 150px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#result {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grid {
+  outline: 4px solid beige;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 530px;
+  width: 600px;
+}
+
+
+.grid div {
+  margin-top: 5px;
+  height: 80px;
+  width: 80px;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+
+.player-one {
+  background-color: red;
+  border-radius: 50px;
+}
+
+.player-two {
+  background-color: blue;
+  border-radius: 50px;
+}
